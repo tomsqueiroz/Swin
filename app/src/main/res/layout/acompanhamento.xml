@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="455dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp"
+            android:text="Acompanhamento\n\n"
+            android:textSize="20sp" />
+
+        <ListView
+            android:id="@+id/raias_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView4" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/power_geral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/power" />
+
+        <ImageButton
+            android:id="@+id/stop_geral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/stop"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:id="@+id/pause_geral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/pause"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:id="@+id/play_geral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/play" />
+    </RelativeLayout>
+
+</LinearLayout>

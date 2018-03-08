@@ -1,0 +1,4 @@
+#Fri Dec 22 13:30:42 BRST 2017
+base.0=D\:\\Swin\\Atual\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

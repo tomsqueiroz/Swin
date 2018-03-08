@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Redes"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:layout_below="@+id/save_tamanho"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/editar_tamanho"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tamanho_piscina"
+        android:textAlignment="textEnd" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/tamanho_piscina"
+        android:hint="Tamanho (m)"
+        android:layout_below="@+id/exit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <Button
+        android:id="@+id/add_rede"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Add Rede"
+        android:visibility="invisible"/>
+
+    <ListView
+        android:id="@+id/redes_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add_rede"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/close" />
+
+    <ImageButton
+        android:id="@+id/save_tamanho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editar_tamanho"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/save" />
+
+</RelativeLayout>

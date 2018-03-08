@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tom.fitas_led">
+
+    <application
+        android:name=".Model.Tempos_State"
+        android:allowBackup="true"
+        android:icon="@drawable/icone"
+        android:label="Swin"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name=".Treino"
+            android:screenOrientation="portrait"> </activity>
+
+        <activity android:name=".Loading_Raias"
+            android:screenOrientation="portrait"> </activity>
+        <activity android:name=".EditTreino"
+            android:screenOrientation="portrait"> </activity>
+        <activity android:name=".Acompanhamento_Activity"
+            android:screenOrientation="portrait"> </activity>
+
+    <activity android:name=".Start"
+        android:screenOrientation="portrait"    > </activity>
+
+    </application>
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

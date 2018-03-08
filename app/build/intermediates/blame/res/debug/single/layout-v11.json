@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Swin\\Atual\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\tomsq\\.android\\build-cache\\fbe47844ef89b8c287844e933d97b0a2d435905e\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\Swin\\Atual\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\tomsq\\.android\\build-cache\\fbe47844ef89b8c287844e933d97b0a2d435905e\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\Swin\\Atual\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\tomsq\\.android\\build-cache\\fbe47844ef89b8c287844e933d97b0a2d435905e\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Swin\\Atual\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\tomsq\\.android\\build-cache\\fbe47844ef89b8c287844e933d97b0a2d435905e\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Swin\\Atual\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\tomsq\\.android\\build-cache\\fbe47844ef89b8c287844e933d97b0a2d435905e\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Swin\\Atual\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\tomsq\\.android\\build-cache\\fbe47844ef89b8c287844e933d97b0a2d435905e\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    }
+]

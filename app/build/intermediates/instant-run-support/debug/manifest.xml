@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tom.fitas_led"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.example.tom.fitas_led.Model.Tempos_State"
+        android:allowBackup="true"
+        android:icon="@drawable/icone"
+        android:label="Swin"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="com.example.tom.fitas_led.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tom.fitas_led.Treino"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.tom.fitas_led.Loading_Raias"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.tom.fitas_led.EditTreino"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.tom.fitas_led.Acompanhamento_Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.tom.fitas_led.Start"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.example.tom.fitas_led.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

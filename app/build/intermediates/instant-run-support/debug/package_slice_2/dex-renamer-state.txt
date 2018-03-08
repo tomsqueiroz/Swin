@@ -1,0 +1,4 @@
+#Fri Nov 10 18:41:07 BRST 2017
+base.0=D\:\\Swin\\Atual\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
+renamed.0=classes.dex
+file.0=D\:\\Swin\\Atual\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

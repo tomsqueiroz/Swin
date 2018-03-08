@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageButton
+            android:id="@+id/add_ida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView10"
+            android:layout_toEndOf="@+id/textView21"
+            android:background="@android:color/transparent"
+            app:srcCompat="@android:drawable/ic_input_add"
+            />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Adicione Trechos"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_send"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/ida_volta" />
+
+        <CheckBox
+            android:id="@+id/ida_volta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idas diferentes de Voltas"
+            android:theme="@style/AppTheme.Picker"
+            android:layout_alignBottom="@+id/save_btn"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/save_btn"
+            android:layout_alignEnd="@+id/save_btn"
+            android:layout_alignStart="@+id/save_btn"
+            android:layout_marginBottom="204dp"
+            android:text="Voltas"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/save_btn"
+            android:layout_alignStart="@+id/textView19"
+            android:layout_below="@+id/textView10"
+            android:text="Idas"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/add_volta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView19"
+            android:layout_toEndOf="@+id/textView19"
+            android:background="@android:color/transparent"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <ListView
+            android:id="@+id/list_ida"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/textView19"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/add_ida" />
+
+        <ListView
+            android:id="@+id/list_volta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/save_btn"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/add_volta" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

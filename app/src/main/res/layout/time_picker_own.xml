@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/texto_segundos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/np_segundos"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="Segundos"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <NumberPicker
+            android:id="@+id/np_dsegundos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_toEndOf="@+id/np_segundos"
+            android:theme="@style/AppTheme.Picker" />
+
+        <NumberPicker
+            android:id="@+id/np_minutos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="34dp"
+            android:layout_toStartOf="@+id/np_segundos"
+            android:theme="@style/AppTheme.Picker" />
+
+        <NumberPicker
+            android:id="@+id/np_segundos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:theme="@style/AppTheme.Picker" />
+
+        <Button
+            android:id="@+id/save_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/texto_segundos"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:text="SALVAR" />
+
+        <TextView
+            android:id="@+id/texto_minutos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/save_time"
+            android:layout_alignEnd="@+id/np_minutos"
+            android:text="Minutos"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/texto_dec_segundos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/texto_segundos"
+            android:layout_alignBottom="@+id/texto_segundos"
+            android:layout_alignStart="@+id/np_dsegundos"
+            android:text="decSegundos"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+</LinearLayout>

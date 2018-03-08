@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="T:\Google Drive\Projetos\APP_LED\fitas_led (1)\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="17181442bab99a3ea6e9c997d8d1880287bdd500">
+        <dex dex="T:\Google Drive\Projetos\APP_LED\fitas_led (1)\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a5ecb923ca5aa1a9a8f9c884a120349c39afaa8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="T:\Google Drive\Projetos\APP_LED\fitas_led (1)\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="T:\Google Drive\Projetos\APP_LED\fitas_led (1)\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_153da3f9e4afb2bd4c4f28dbbe4e927cf8e9b8f8\classes.dex" />
+    </item>
+
+</items>
